@@ -50,8 +50,14 @@ module.exports = class FileSystemBlobStore {
       fs.writeFileSync(this.lockFilename, 'LOCK', { flag: 'wx' });
       acquiredLock = true;
 
-      fs.writeFileSync(this.blobFilename, blobToStore);
-      fs.writeFileSync(this.blobMapFilename, mapToStore);
+      // Write to temp files then atomically rename into place so a crash
+      // between the two writes can't leave BLOB and MAP inconsistent.
+      const blobTmp = this.blobFilename + '.tmp';
+      const mapTmp = this.blobMapFilename + '.tmp';
+      fs.writeFileSync(blobTmp, blobToStore);
+      fs.writeFileSync(mapTmp, mapToStore);
+      fs.renameSync(blobTmp, this.blobFilename);
+      fs.renameSync(mapTmp, this.blobMapFilename);
     } catch (error) {
       // Swallow the exception silently only if we fail to acquire the lock.
       if (error.code !== 'EEXIST') {

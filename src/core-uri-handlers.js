@@ -19,14 +19,16 @@ function openFile(atom, { query }) {
 
 function windowShouldOpenFile({ query }) {
   const { filename } = query;
+  // `statSyncNoException` returns `false` when the path does not exist, so guard
+  // every `stat` method call against that case to avoid a TypeError.
   const stat = fs.statSyncNoException(filename);
 
   return win =>
     win.containsLocation({
       pathToOpen: filename,
       exists: Boolean(stat),
-      isFile: stat.isFile(),
-      isDirectory: stat.isDirectory()
+      isFile: Boolean(stat) && stat.isFile(),
+      isDirectory: Boolean(stat) && stat.isDirectory()
     });
 }
 
