@@ -283,3 +283,128 @@ Curated highlights (may fall outside the top-100 download list):
 - A package appearing here is community-maintained; vet before installing.
 - Full, sortable registry: https://web.pulsar-edit.dev — or `ppm search <term>`.
 
+
+---
+
+# Coding-Functionality Packages
+
+Community packages that specifically add or enhance **coding capabilities** —
+linting, code intelligence (LSP/autocomplete), formatting, language tooling,
+version control, running/debugging, and editing aids. Curated from the
+registry's most-downloaded packages; install any with `ppm install <name>`.
+
+> These are third-party and community-maintained — vet before installing.
+
+## Linting & Diagnostics
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `linter` | 9.9M | [steelbrain/linter](https://github.com/steelbrain/linter) | A Base Linter with Cow Powers |
+| `linter-ui-default` | 7.8M | [steelbrain/linter-ui-default](https://github.com/steelbrain/linter-ui-default) | Default UI for the Linter package |
+| `busy-signal` | 5.6M | [steelbrain/busy-signal](https://github.com/steelbrain/busy-signal) | A package that provides an easy to use API to show your package is performing a task |
+| `intentions` | 4.8M | [steelbrain/intentions](https://github.com/steelbrain/intentions) | Base package for showing intentions in Atom |
+| `linter-eslint` | 2.4M | [AtomLinter/linter-eslint](https://github.com/AtomLinter/linter-eslint) | Lint JavaScript on the fly, using ESLint (v7 or older) |
+| `linter-jshint` | 1.2M | [AtomLinter/linter-jshint](https://github.com/AtomLinter/linter-jshint) | Linter plugin for JavaScript, using jshint |
+| `linter-gcc` | 866k | [AtomLinter/linter-gcc](https://github.com/AtomLinter/linter-gcc) | Lint C and C++ source files using gcc / g++ |
+| `linter-php` | 724k | [AtomLinter/linter-php](https://github.com/AtomLinter/linter-php) | Lint PHP on the fly, using php -l |
+| `linter-flake8` | 700k | [AtomLinter/linter-flake8](https://github.com/AtomLinter/linter-flake8) | Atom linter plugin for Python, using flake8 |
+| `linter-csslint` | 659k | [AtomLinter/linter-csslint](https://github.com/AtomLinter/linter-csslint) | Lint CSS on the fly, using csslint |
+| `linter-htmlhint` | 549k | [AtomLinter/linter-htmlhint](https://github.com/AtomLinter/linter-htmlhint) | A plugin for Atom Linter providing an interface to HTMLHint. |
+| `linter-rubocop` | 291k | [AtomLinter/linter-rubocop](https://github.com/AtomLinter/linter-rubocop) | Lint Ruby on the fly, using rubocop |
+
+## Autocomplete, IntelliSense & LSP
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `autocomplete-python` | 3.4M | [autocomplete-python/autocomplete-python](https://github.com/autocomplete-python/autocomplete-python) | Python completions for packages, variables, methods, functions, with their arguments. Powered by your choice o |
+| `atom-ide-ui` | 2.0M | [facebook-atom/atom-ide-ui](https://github.com/facebook-atom/atom-ide-ui) | A collection of Atom UIs to support language services. |
+| `atom-ternjs` | 1.7M | [tststs/atom-ternjs](https://github.com/tststs/atom-ternjs) | JavaScript code intelligence for atom with tern. Adds support for ES5, ES6, ES7, ES8, Node.js and more. Extend |
+| `ide-python` | 1.6M | [atom-community/ide-python](https://github.com/atom-community/ide-python) | Python language support for Atom-IDE |
+| `autocomplete-clang` | 1.1M | [yasuyuky/autocomplete-clang](https://github.com/yasuyuky/autocomplete-clang) | autocomplete for C/C++/ObjC using clang |
+| `hyperclick` | 1.0M | [facebook-atom/hyperclick](https://github.com/facebook-atom/hyperclick) | Pluggable text-clicking UI for Atom |
+| `autocomplete-paths` | 957k | [atom-community/autocomplete-paths](https://github.com/atom-community/autocomplete-paths) | Adds path autocompletion to autocomplete+ |
+| `autocomplete-modules` | 575k | [nkt/atom-autocomplete-modules](https://github.com/nkt/atom-autocomplete-modules) | Autocomplete for require/import statements |
+| `atom-autocomplete-php` | 560k | [Peekmo/atom-autocomplete-php](https://github.com/Peekmo/atom-autocomplete-php) | Atom autocompletion plugin for PHP language |
+| `ide-php` | 494k | [atom/ide-php](https://github.com/atom/ide-php) | PHP language support for Atom-IDE |
+| `ide-html` | 376k | [liuderchi/ide-html](https://github.com/liuderchi/ide-html) | Atom-IDE for HTML, Go Template, Mustache and other Templates |
+| `ide-java` | 375k | [atom/ide-java](https://github.com/atom/ide-java) | Java language support for Atom-IDE. |
+
+## Formatting & Beautify
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `atom-beautify` | 9.2M | [Glavin001/atom-beautify](https://github.com/Glavin001/atom-beautify) | Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Co |
+| `prettier-atom` | 823k | [prettier/prettier-atom](https://github.com/prettier/prettier-atom) | Atom plugin for formatting JavaScript using prettier with (optional) prettier-eslint integration |
+| `docblockr` | 803k | [nikhilkalige/docblockr](https://github.com/nikhilkalige/docblockr) | A helper package for writing documentation |
+| `nuclide-format-js` | 315k | [facebook-atom/nuclide-format-js](https://github.com/facebook-atom/nuclide-format-js) | A collection of codemods to help auto format javascript |
+| `atom-ide-code-format` | 214k | [atom-community/atom-ide-code-format](https://github.com/atom-community/atom-ide-code-format) | Provides a code-formatting provider API |
+| `xml-formatter` | 204k | [neyestrabelli/xml-formatter](https://github.com/neyestrabelli/xml-formatter) | XML Formatter |
+
+## Language & Framework Tooling
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `language-babel` | 2.2M | [gandm/language-babel](https://github.com/gandm/language-babel) | JavaScript ES201x, React JSX, Flow and GraphQL Grammar. Babel Transpiler |
+| `atom-typescript` | 2.0M | [TypeStrong/atom-typescript](https://github.com/TypeStrong/atom-typescript) | The only TypeScript plugin you will ever need. |
+| `language-ini` | 1.2M | [jacobbednarz/atom-language-ini](https://github.com/jacobbednarz/atom-language-ini) | Syntax support for ini files. |
+| `gpp-compiler` | 861k | [kriscross07/atom-gpp-compiler](https://github.com/kriscross07/atom-gpp-compiler) | Compile and run C and C++ within Atom |
+| `go-plus` | 849k | [joefitzgerald/go-plus](https://github.com/joefitzgerald/go-plus) | Makes working with Go in Atom awesome. |
+| `language-ejs` | 830k | [darron/language-ejs](https://github.com/darron/language-ejs) | EJS support for Atom. |
+| `language-vue` | 711k | [hedefalk/atom-vue](https://github.com/hedefalk/atom-vue) | Vue component support in Pulsar |
+| `language-julia` | 693k | [JuliaEditorSupport/atom-language-julia](https://github.com/JuliaEditorSupport/atom-language-julia) | Julia language support for Atom. |
+| `language-haskell` | 690k | [atom-haskell/language-haskell](https://github.com/atom-haskell/language-haskell) | Haskell language support in Atom |
+| `language-latex` | 551k | [area/language-latex](https://github.com/area/language-latex) | Syntax highlighting for LaTeX for Atom |
+| `python-tools` | 519k | [MichaelAquilina/python-tools](https://github.com/MichaelAquilina/python-tools) | Goto definition, show usages, refactor/rename and more for python files |
+| `language-lua` | 516k | [FireZenk/language-lua](https://github.com/FireZenk/language-lua) | Add syntax highlighting and snippets to Lua files in Atom |
+
+## Git & Version Control
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `git-plus` | 2.9M | [akonwi/git-plus](https://github.com/akonwi/git-plus) | Do git things without the terminal |
+| `merge-conflicts` | 764k | [smashwilson/merge-conflicts](https://github.com/smashwilson/merge-conflicts) | Resolve git conflicts within Atom |
+| `git-time-machine` | 436k | [littlebee/git-time-machine](https://github.com/littlebee/git-time-machine) | Visually interact with git commit history for a file |
+| `git-blame` | 294k | [alexcorre/git-blame](https://github.com/alexcorre/git-blame) | Toggle git-blame annotations in the gutter of atom editor. |
+| `git-control` | 270k | [jacogr/atom-git-control](https://github.com/jacogr/atom-git-control) | Provides a GUI interface to manage all commonly-used git commands. |
+
+## Run, Build & Debug
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `platformio-ide-terminal` | 17.5M | [platformio/platformio-atom-ide-terminal](https://github.com/platformio/platformio-atom-ide-terminal) | A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus. |
+| `script` | 4.4M | [atom-community/atom-script](https://github.com/atom-community/atom-script) | Run code in Atom! |
+| `hydrogen` | 2.6M | [nteract/hydrogen](https://github.com/nteract/hydrogen) | Run code interactively, inspect data, and plot. All the power of Jupyter kernels, inside your favorite text ed |
+| `platformio-ide` | 1.5M | [platformio/platformio-atom-ide](https://github.com/platformio/platformio-atom-ide) | Official PlatformIO IDE for IoT, Arduino, ARM mbed, Espressif (ESP8266/ESP32), STM32, PIC32, nRF51/nRF52, FPGA |
+| `build` | 1.4M | [noseglid/atom-build](https://github.com/noseglid/atom-build) | Build your current project, directly from Atom |
+| `terminal-plus` | 1.1M | [jeremyramin/terminal-plus](https://github.com/jeremyramin/terminal-plus) | A terminal package for Atom, complete with themes and more. |
+| `platformio-ide-debugger` | 845k | [platformio/platformio-atom-ide-debugger](https://github.com/platformio/platformio-atom-ide-debugger) | A debugging front-end for PlatformIO IDE |
+| `atom-runner` | 844k | [lsegal/atom-runner](https://github.com/lsegal/atom-runner) | Runs scripts inside of Atom. |
+| `go-debug` | 454k | [lloiser/go-debug](https://github.com/lloiser/go-debug) | go debugger using delve for atom |
+| `atom-terminal` | 375k | [karan/atom-terminal](https://github.com/karan/atom-terminal) | Open terminal in the current file's directory. |
+| `python-debugger` | 294k | [dpo/atom-python-debugger](https://github.com/dpo/atom-python-debugger) | Develop and Debug python projects |
+| `vk-terminal` | 256k | [atom-repo/vk-terminal](https://github.com/atom-repo/vk-terminal) | A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus. |
+
+## Editing & Navigation Aids
+
+| Package | Downloads | Repository | What it does |
+|---|---:|---|---|
+| `minimap` | 7.6M | [atom-minimap/minimap](https://github.com/atom-minimap/minimap) | A preview of the full source code. |
+| `emmet` | 4.8M | [emmetio/emmet-atom](https://github.com/emmetio/emmet-atom) | Emmet – the essential tool for web developers |
+| `pigments` | 4.2M | [abe33/atom-pigments](https://github.com/abe33/atom-pigments) | A package to display colors in project and files. |
+| `highlight-selected` | 2.8M | [richrace/highlight-selected](https://github.com/richrace/highlight-selected) | Highlights the current word selected when double clicking |
+| `color-picker` | 2.5M | [thomaslindstrom/color-picker](https://github.com/thomaslindstrom/color-picker) | Right click or press CMD-SHIFT-C/CTRL-ALT-C to open it. |
+| `project-manager` | 1.2M | [danielbrodin/atom-project-manager](https://github.com/danielbrodin/atom-project-manager) | Project Manager for easy access and switching between projects in Atom. |
+| `minimap-highlight-selected` | 805k | [atom-minimap/minimap-highlight-selected](https://github.com/atom-minimap/minimap-highlight-selected) | A minimap binding for the highlight-selected package |
+| `sort-lines` | 695k | [atom/sort-lines](https://github.com/atom/sort-lines) | Sorts your lines. Never gets tired. |
+| `todo-show` | 565k | [mrodalgaard/atom-todo-show](https://github.com/mrodalgaard/atom-todo-show) | Finds all the TODOs, FIXMEs, CHANGEDs, etc. in your project. |
+| `atom-file-icons` | 395k | [donovanhiland/atom-file-icons](https://github.com/donovanhiland/atom-file-icons) | logo style icons and ui tweaks to mirror vscode |
+| `minimap-pigments` | 394k | [abe33/minimap-pigments](https://github.com/abe33/minimap-pigments) | An Atom plugin to display pigments colors in the Minimap. |
+| `minimap-find-and-replace` | 378k | [atom-minimap/minimap-find-and-replace](https://github.com/atom-minimap/minimap-find-and-replace) | Minimap bindings for the find and replace package |
+
+## Typical setups
+
+- **Full IDE experience:** `atom-ide-ui` + an `ide-*` language server (e.g. `ide-typescript`, `ide-python`).
+- **Linting stack:** `linter` + `linter-ui-default` + `busy-signal` + `intentions`, plus a language linter (`linter-eslint`, `linter-pylint`, …).
+- **Formatting:** `atom-beautify` or `prettier-atom` / `prettier-atom`-style formatters.
+- **Interactive coding:** `hydrogen` (Jupyter kernels inline), `script` (run code from the editor).
+
