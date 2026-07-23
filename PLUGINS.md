@@ -405,6 +405,6 @@ registry's most-downloaded packages; install any with `ppm install <name>`.
 
 - **Full IDE experience:** `atom-ide-ui` + an `ide-*` language server (e.g. `ide-typescript`, `ide-python`).
 - **Linting stack:** `linter` + `linter-ui-default` + `busy-signal` + `intentions`, plus a language linter (`linter-eslint`, `linter-pylint`, …).
-- **Formatting:** `atom-beautify` or `prettier-atom` / `prettier-atom`-style formatters.
+- **Formatting:** `atom-beautify` or `prettier-atom`-style formatters.
 - **Interactive coding:** `hydrogen` (Jupyter kernels inline), `script` (run code from the editor).
 
